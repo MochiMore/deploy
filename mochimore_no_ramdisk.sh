@@ -38,7 +38,7 @@ Type=simple
 User=mochimo-node
 Group=mochimo-node
 WorkingDirectory=/mnt/mochimo-bc/bin/
-#ExecStart=/home/mochimo-node/vechain-thor-mainnet.sh start
+
 ExecStart=/bin/bash /home/mochimo-node/start-mochimo.sh
 
 [Install]
